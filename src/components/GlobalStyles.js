@@ -1,5 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 
+export const themeVars = {
+  cadmiumRed: "#D80026",
+  alabamaCrimson: "#AA001E",
+  selectiveYellow: "#FDBB01",
+  orange: "#F79D00",
+  desertSand: "#E3C4A6",
+  pagePadding: "24px",
+  headingFont: "'Permanent Marker', Arial, Helvetica, sans-serif",
+  contentFont: "'Kosugi', Arial, Helvetica, sans-serif",
+  background: "#F79D00",
+};
+
 export default createGlobalStyle`
   *,
   *:before,
